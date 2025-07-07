@@ -65,13 +65,15 @@ try:
         time.sleep(2) # Wait for new results to load
 except Exception as e:
     print("Could not find scrollable element.")
-
-📊 Sample Output
+```
+---
+## 📊 Sample Output
 
 Below is a screenshot of the final Excel file containing the scraped restaurant data.
 
-(./assets/data overview sample.png)
+![data overview sample](https://github.com/user-attachments/assets/2f52adee-d289-4d72-a834-676c6bca2306)
 
-⚖️ Disclaimer
+---
+## ⚖️ Disclaimer
 
 This script was created for educational purposes as a portfolio project. It is not intended for commercial use. Scraping Google Maps is against their Terms of Service, and this project was completed with respect for their infrastructure by using long delays and scraping only a small amount of publicly available data.
